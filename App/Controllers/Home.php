@@ -19,6 +19,14 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-        View::renderTemplate('Home/index.html');
+        View::renderTemplate('mHoe/index.html');
+        
+    }
+
+
+    public function aboutAction()
+    {
+        View::renderTemplate('About/aboutus.html');
+        
     }
 }
